@@ -66,7 +66,7 @@ if query:
             try:
                 response = requests.get(
                     f"{API_BASE}/chat",
-                    params={"q": query},
+                    params={"q": query, "top_k": top_k},
                     timeout=30,
                 )
                 data = response.json().get("response", {})

@@ -45,14 +45,17 @@ def root():
 
 
 @app.get("/chat")
-def chat(q: str = Query(..., description="The question to ask the AI assistant")):
+def chat(
+    q: str = Query(..., description="The question to ask the AI assistant"),
+    top_k: int = Query(3, description="Number of results to retrieve"),
+):
     """
     Full RAG pipeline:
     1. Embed the question
     2. Search Endee vector database for relevant documents
     3. Return the answer with retrieved context
     """
-    result = generate_answer(q)
+    result = generate_answer(q, top_k=top_k)
     return {"response": result}
 
 

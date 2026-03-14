@@ -15,8 +15,8 @@ VECTOR_DIMENSION = 384  # Matches all-MiniLM-L6-v2 output
 
 
 def get_client() -> Endee:
-    """Initialize and return the Endee client (connects to localhost:8080 by default)."""
-    return Endee()
+    """Initialize and return the Endee client (connects to localhost:8090)."""
+    return Endee(url="http://localhost:8090")
 
 
 def create_index(client: Endee, recreate: bool = False) -> None:
