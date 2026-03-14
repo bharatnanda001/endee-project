@@ -1,0 +1,62 @@
+[
+  {
+    "id": "doc1",
+    "text": "Retrieval-Augmented Generation (RAG) combines vector search with large language models to generate factually grounded answers.",
+    "category": "AI",
+    "source": "AI Research"
+  },
+  {
+    "id": "doc2",
+    "text": "Vector databases store high-dimensional embeddings and enable fast approximate nearest-neighbor (ANN) similarity search.",
+    "category": "database",
+    "source": "Database Engineering"
+  },
+  {
+    "id": "doc3",
+    "text": "Endee is a high-performance open-source vector database supporting HNSW indexing, cosine/L2/IP distance metrics, and payload filtering.",
+    "category": "database",
+    "source": "Endee Docs"
+  },
+  {
+    "id": "doc4",
+    "text": "Sentence Transformers convert text into dense vector embeddings using pre-trained transformer models like all-MiniLM-L6-v2.",
+    "category": "AI",
+    "source": "HuggingFace"
+  },
+  {
+    "id": "doc5",
+    "text": "Semantic search understands the meaning and context of a query, not just exact keyword matches.",
+    "category": "search",
+    "source": "Search Engineering"
+  },
+  {
+    "id": "doc6",
+    "text": "FastAPI is a modern, high-performance web framework for building APIs with Python using type hints.",
+    "category": "backend",
+    "source": "FastAPI Docs"
+  },
+  {
+    "id": "doc7",
+    "text": "Machine learning is a subset of artificial intelligence where systems learn from data to make predictions or decisions.",
+    "category": "AI",
+    "source": "ML Textbook"
+  },
+  {
+    "id": "doc8",
+    "text": "HNSW (Hierarchical Navigable Small World) is a graph-based algorithm for efficient approximate nearest-neighbor search in high dimensions.",
+    "category": "algorithm",
+    "source": "Research Paper"
+  },
+  {
+    "id": "doc9",
+    "text": "Foxnuts are a nutritious snack rich in protein, antioxidants, calcium, and magnesium. They are low in fat and support heart health.",
+    "category": "health",
+    "source": "Nutrition Research"
+  },
+  {
+    "id": "doc10",
+    "text": "Hybrid search combines dense vector retrieval with sparse keyword search (like BM25) to maximize search relevance.",
+    "category": "search",
+    "source": "Search Research"
+  }
+]
